@@ -17,10 +17,9 @@
 ## Contributions
 
 &nbsp;&nbsp;&nbsp;&nbsp;The various tasks and their contributions are given below:  
-&nbsp;&nbsp;&nbsp;&nbsp;1. Arboricity implementation: Abdul Rahman Yakoob, Saarthek Raj, Amritansh  
-&nbsp;&nbsp;&nbsp;&nbsp;2. ELS Implementation: Amritansh  
-&nbsp;&nbsp;&nbsp;&nbsp;3. Tomita Implementation: Paras Puneet Singh  
-&nbsp;&nbsp;&nbsp;&nbsp;4. Report: Chhavi Malhotra  
+&nbsp;&nbsp;&nbsp;&nbsp;1. Algorithm 1 implementation: Amritansh Tiwari
+&nbsp;&nbsp;&nbsp;&nbsp;2. Algorithm 2 Implementation: Amritansh Tiwari 
+&nbsp;&nbsp;&nbsp;&nbsp;4. Report: Sarthak , Abdul Rahman Yakoob 
 
 ## Run Locally
 
