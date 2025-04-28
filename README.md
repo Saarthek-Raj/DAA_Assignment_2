@@ -10,8 +10,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. As733 (Link: https://snap.stanford.edu/data/as-Skitter.html)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Yeast (Link: https://snap.stanford.edu/data/email-Enron.html)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ca-HepTh (Link: https://snap.stanford.edu/data/wiki-Vote.html)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. NetScience (Link: https://snap.stanford.edu/data/wiki-Vote.html)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. NetScience (Link: https://snap.stanford.edu/data/wiki-Vote.html)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;We treated these datasets as undirected graphs and applied these algorithms. The input is taken from a text file with some optional text, including number of vertices, followed by edges, and the rest of the lines denoting a pair of vertices with an edge between them. We store the graphs in adjacency list format. The results are shown in the algorithm-wise markdowns, and the report.
