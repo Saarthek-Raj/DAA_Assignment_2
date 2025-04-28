@@ -1,4 +1,3 @@
-I'll provide a brief description of Algorithm 1 (Exact) from this paper.
 Algorithm 1 (Exact) is the baseline exact algorithm for solving the Clique Densest Subgraph (CDS) problem, which aims to find a subgraph with the highest h-clique-density. It uses a binary search approach combined with flow network techniques.
 Here's how the Exact algorithm works:
 
