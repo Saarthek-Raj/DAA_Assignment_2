@@ -50,7 +50,3 @@ Example for ELS with Wiki-Vote we input:
   g++ els.cpp -o els.exe
   ./els.exe Wiki-Vote.txt
 ```
-
-file-name can be tomita, or els, or chiba.  
-dataset can be wiki-Vote or as-skitter or email-Enron.  
-Webpage Link: [https://darktalisman20.github.io/DAA-Assignment-1/](https://darktalisman20.github.io/DAA-Assignment-1/)  
