@@ -6,11 +6,11 @@ Here's how the Exact algorithm works:
 
 &nbsp;&nbsp;&nbsp;&nbsp;It initializes lower and upper bounds for the density parameter α. The lower bound is set to 0, and the upper bound is calculated as the maximum clique-degree of any vertex divided by the clique size.
 The algorithm creates a flow network F(V_F, E_F) with:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A source node s and a sink node t
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nodes representing all vertices in the original graph
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directed edges from s to each vertex with capacity equal to that vertex's clique-degree
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directed edges between vertices that form (h-1)-cliques, with capacity set to infinity
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directed edges from each vertex to t with capacity α
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A source node s and a sink node t.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nodes representing all vertices in the original graph.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directed edges from s to each vertex with capacity equal to that vertex's clique-degree.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directed edges between vertices that form (h-1)-cliques, with capacity set to infinity.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directed edges from each vertex to t with capacity α.  
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;It performs binary search on the parameter α:
