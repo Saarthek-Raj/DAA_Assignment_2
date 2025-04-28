@@ -1,4 +1,5 @@
-# ALGORITHM 1:
+# Algorithms
+## Algorithm 1:
 
 Algorithm 1 (Exact) is the baseline exact algorithm for solving the Clique Densest Subgraph (CDS) problem, which aims to find a subgraph with the highest h-clique-density. It uses a binary search approach combined with flow network techniques.
 Here's how the Exact algorithm works:
@@ -35,7 +36,7 @@ The algorithm rebuilds the flow network on the entire graph in each iteration
 
 These limitations are addressed in Algorithm 4 (CoreExact), which improves efficiency through the core-based approach.
 
-# ALGORITHM 4:
+## Algorithm 4:
 
 Algorithm 4 (CoreExact) is an optimized approach for solving the Clique Densest Subgraph (CDS) problem, which aims to find a subgraph with the highest h-clique-density. The algorithm improves upon the basic Exact algorithm by leveraging k-clique-cores and several optimization techniques to reduce computational cost.
 Here's how CoreExact works:
