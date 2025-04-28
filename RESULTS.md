@@ -1,4 +1,4 @@
-# 4. Experimental Results
+# Experimental Results
 
 The implementations were tested on several datasets. We ran the implementations of the three algorithms on four datasets. The code was executed on a Macbook Air 1, with 8 GB RAM; execution time may differ for different devices. The datasets, with their names, number of edges, and vertices, are as follows:
 
