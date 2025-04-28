@@ -3,8 +3,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;In this project we implement two algorithms for finding Densest subgraph discovery in an undirected graph in C++. The algorithms are:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. The algorithm 1 from page 1721 from the paper titled Efficient Algorithms for Densest Subgraph Discovery; by Yixiang Fang ,Kaiqiang Yu ,Reynold Cheng ,Laks V.S. Lakshmanan ,Xuemin Lin (Link: [https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Chiba-1985-arboricity.pdf](https://www.vldb.org/pvldb/vol12/p1719-fang.pdf)).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. The algorithm 4 from page 1725 from the paper titled Efficient Algorithms for Densest Subgraph Discovery; by Yixiang Fang ,Kaiqiang Yu ,Reynold Cheng ,Laks V.S. Lakshmanan ,Xuemin Lin (Link: [https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Chiba-1985-arboricity.pdf](https://www.vldb.org/pvldb/vol12/p1719-fang.pdf)).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. The algorithm 1 from page 1721 from the paper titled Efficient Algorithms for Densest Subgraph Discovery; by Yixiang Fang ,Kaiqiang Yu ,Reynold Cheng ,Laks V.S. Lakshmanan ,Xuemin Lin (Link: [https://www.vldb.org/pvldb/vol12/p1719-fang.pdf]).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. The algorithm 4 from page 1725 from the paper titled Efficient Algorithms for Densest Subgraph Discovery; by Yixiang Fang ,Kaiqiang Yu ,Reynold Cheng ,Laks V.S. Lakshmanan ,Xuemin Lin (Link: [https://www.vldb.org/pvldb/vol12/p1719-fang.pdf]).    
 
 &nbsp;&nbsp;&nbsp;&nbsp;We then executed these algorithms on four graph datasets:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. as-Skitter (Link: https://snap.stanford.edu/data/as-Skitter.html)  
