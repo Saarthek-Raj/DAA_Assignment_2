@@ -14,7 +14,7 @@
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;We treated these datasets as undirected graphs and applied these algorithms. The input is taken from a text file with some optional text, including number of vertices, followed by edges, and the rest of the lines denoting a pair of vertices with an edge between them. We store the graphs in adjacency list format. The results are shown in the algorithm-wise markdowns, and the report.  
-&nbsp;&nbsp;&nbsp;&nbsp; Webpage Link:  [https://Saarthek-Raj.github.io/DAA-Assignment-2/]
+&nbsp;&nbsp;&nbsp;&nbsp; Webpage Link:  [[https://Saarthek-Raj.github.io/DAA-Assignment-2/]](https://Saarthek-Raj.github.io/DAA-Assignment-2/)
 ## Contributions
 
 &nbsp;&nbsp;&nbsp;&nbsp;The various tasks and their contributions are given below:    
