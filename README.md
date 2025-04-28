@@ -18,8 +18,8 @@
 ## Contributions
 
 &nbsp;&nbsp;&nbsp;&nbsp;The various tasks and their contributions are given below:  
-&nbsp;&nbsp;&nbsp;&nbsp;1. Algorithm 1 implementation: Amritansh Tiwari  
-&nbsp;&nbsp;&nbsp;&nbsp;2. Algorithm 2 Implementation: Amritansh Tiwari  
+&nbsp;&nbsp;&nbsp;&nbsp;1. Algorithm 1 implementation: Amritansh 
+&nbsp;&nbsp;&nbsp;&nbsp;2. Algorithm 2 Implementation: Amritansh
 &nbsp;&nbsp;&nbsp;&nbsp;3. Report: Saarthek Raj , Abdul Rahman Yakoob 
 
 
