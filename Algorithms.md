@@ -15,12 +15,12 @@ The algorithm creates a flow network F(V_F, E_F) with:
 
 &nbsp;&nbsp;&nbsp;&nbsp;It performs binary search on the parameter α:
 
-&nbsp;&nbsp;&nbsp;&nbsp;In each iteration, it builds the flow network with the current α value.  
-&nbsp;&nbsp;&nbsp;&nbsp;Computes the minimum s-t cut (S,T) using Goldberg's algorithm.  
-&nbsp;&nbsp;&nbsp;&nbsp;Updates α based on the result:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In each iteration, it builds the flow network with the current α value.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computes the minimum s-t cut (S,T) using Goldberg's algorithm.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updates α based on the result:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;If S={s}, then α is too large, so the upper bound is updated.  
-&nbsp;&nbsp;&nbsp;&nbsp;Otherwise, α is too small, so the lower bound is updated.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If S={s}, then α is too large, so the upper bound is updated.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Otherwise, α is too small, so the lower bound is updated.  
 
 
 
