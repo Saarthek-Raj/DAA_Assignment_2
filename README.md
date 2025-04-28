@@ -34,19 +34,19 @@
 For Unix/Mac:
 
 ```bash
-  g++ <file-name>.cpp -o <file-name>.out
-  ./<file-name>.out <dataset>.txt
+  g++ <file-name>.cpp -o <file-name>.out 
+  ./<file-name>.out <dataset>.txt <h>
 ```
 
 For Windows:
 
 ```bash
-  g++ .cpp -o <file-name>.exe
-  ./<file-name>.exe <dataset>.txt
+  g++ <file-name>.cpp -o <file-name>.exe
+  ./<file-name>.exe <dataset>.txt <h>
 ```
-
-Example for ELS with Wiki-Vote we input:  
+<file-name> can be algo1 or algo4, and <h> is number of vertices in the clique.
+Example for Algorithm 1 with Yeast for edge-based density we input:  
 ```bash
-  g++ els.cpp -o els.exe
-  ./els.exe Wiki-Vote.txt
+  g++ algo1.cpp -o algo1.exe
+  ./algo1.exe yeast.txt 2
 ```
