@@ -30,6 +30,7 @@
 3. Extract the dataset .txt files from the zip folder and put them in the same folder where all the codes are.  
 4. Go to the project directory.  
 5. Compile the file and run it.  
+6. The output is written to an output.md file showing number of nodes, density, number of h-cliques, nodes and time taken.  
 
 For Unix/Mac:
 
