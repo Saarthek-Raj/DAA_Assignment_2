@@ -37,31 +37,31 @@ These limitations are addressed in Algorithm 4 (CoreExact), which improves effic
 
 ## Algorithm 4
 
-Algorithm 4 (CoreExact) is an optimized approach for solving the Clique Densest Subgraph (CDS) problem, which aims to find a subgraph with the highest h-clique-density. The algorithm improves upon the basic Exact algorithm by leveraging k-clique-cores and several optimization techniques to reduce computational cost.
+Algorithm 4 (CoreExact) is an optimized approach for solving the Clique Densest Subgraph (CDS) problem, which aims to find a subgraph with the highest h-clique-density. The algorithm improves upon the basic Exact algorithm by leveraging k-clique-cores and several optimization techniques to reduce computational cost.  
 Here's how CoreExact works:
 
-It begins by performing core decomposition using Algorithm 3, which computes the clique-core number of each vertex.
-It then locates the (k'', Ψ)-core using pruning criteria, where k'' represents the core with the highest h-clique-density among residual graphs.
-The algorithm initializes a set C to contain all connected components of the (k'', Ψ)-core that might contain the CDS.
-For each connected component in C, it:
+&nbsp;&nbsp;&nbsp;&nbsp;It begins by performing core decomposition using Algorithm 3, which computes the clique-core number of each vertex.  
+&nbsp;&nbsp;&nbsp;&nbsp;It then locates the (k'', Ψ)-core using pruning criteria, where k'' represents the core with the highest h-clique-density among residual graphs.  
+&nbsp;&nbsp;&nbsp;&nbsp;The algorithm initializes a set C to contain all connected components of the (k'', Ψ)-core that might contain the CDS.  
+&nbsp;&nbsp;&nbsp;&nbsp;For each connected component in C, it:  
 
-Builds a flow network if the component's core number is high enough
-Performs binary search to find the optimal α value
-Uses minimum s-cut calculations to identify dense subgraphs
-Updates bounds as the search progresses
-
-
-The algorithm employs three key optimizations:
-
-Tighter bounds on α using (k,Ψ)-cores
-Pruning techniques to identify which cores might contain the CDS
-A strategy to make the flow network gradually smaller during iterations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Builds a flow network if the component's core number is high enough.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Performs binary search to find the optimal α value.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uses minimum s-cut calculations to identify dense subgraphs.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updates bounds as the search progresses  
 
 
-Finally, it returns the subgraph D with the highest h-clique-density.
+The algorithm employs three key optimizations:  
 
-The main advantage of CoreExact over the basic Exact algorithm is efficiency - it significantly reduces computational cost by:
+&nbsp;&nbsp;&nbsp;&nbsp;Tighter bounds on α using (k,Ψ)-cores.  
+&nbsp;&nbsp;&nbsp;&nbsp;Pruning techniques to identify which cores might contain the CDS.  
+&nbsp;&nbsp;&nbsp;&nbsp;A strategy to make the flow network gradually smaller during iterations.  
 
-Working with smaller subgraphs (cores) rather than the entire graph
-Using tighter bounds for binary search
-Progressively reducing the flow network size
+
+Finally, it returns the subgraph D with the highest h-clique-density.  
+
+The main advantage of CoreExact over the basic Exact algorithm is efficiency - it significantly reduces computational cost by:  
+
+&nbsp;&nbsp;&nbsp;&nbsp;Working with smaller subgraphs (cores) rather than the entire graph.  
+&nbsp;&nbsp;&nbsp;&nbsp;Using tighter bounds for binary search.  
+&nbsp;&nbsp;&nbsp;&nbsp;Progressively reducing the flow network size.  
