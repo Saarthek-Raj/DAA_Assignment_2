@@ -29,9 +29,9 @@ The algorithm creates a flow network F(V_F, E_F) with:
 
 The paper notes that while Exact provides optimal solutions, it has limitations:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;Initial bounds on α may not be tight.
-&nbsp;&nbsp;&nbsp;&nbsp;The flow network can become large for graphs with many clique instances.
-&nbsp;&nbsp;&nbsp;&nbsp;The algorithm rebuilds the flow network on the entire graph in each iteration.
+&nbsp;&nbsp;&nbsp;&nbsp;Initial bounds on α may not be tight.  
+&nbsp;&nbsp;&nbsp;&nbsp;The flow network can become large for graphs with many clique instances.  
+&nbsp;&nbsp;&nbsp;&nbsp;The algorithm rebuilds the flow network on the entire graph in each iteration.  
 
 These limitations are addressed in Algorithm 4 (CoreExact), which improves efficiency through the core-based approach.
 
