@@ -9,11 +9,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;We then executed these algorithms on four graph datasets:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. As733   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Yeast 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ca-HepTh 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ca-HepTh
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. NetScience
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;We treated these datasets as undirected graphs and applied these algorithms. The input is taken from a text file with some optional text, including number of vertices, followed by edges, and the rest of the lines denoting a pair of vertices with an edge between them. We store the graphs in adjacency list format. The results are shown in the algorithm-wise markdowns, and the report.
+&nbsp;&nbsp;&nbsp;&nbsp;We treated these datasets as undirected graphs and applied these algorithms. The input is taken from a text file with some optional text, including number of vertices, followed by edges, and the rest of the lines denoting a pair of vertices with an edge between them. We store the graphs in adjacency list format. The results are shown in the algorithm-wise markdowns, and the report.  
 &nbsp;&nbsp;&nbsp;&nbsp; Webpage Link: https://github.com/Saarthek-Raj/DAA_Assignment_2/
 ## Contributions
 
