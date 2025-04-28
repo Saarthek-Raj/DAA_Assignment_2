@@ -44,7 +44,7 @@ For Windows:
   g++ <file-name>.cpp -o <file-name>.exe
   ./<file-name>.exe <dataset>.txt <h>
 ```
-<file-name> can be algo1 or algo4, and <h> is number of vertices in the clique.
+`<file-name>` can be algo1 or algo4, and `<h>` is number of vertices in the clique.
 Example for Algorithm 1 with Yeast for edge-based density we input:  
 ```bash
   g++ algo1.cpp -o algo1.exe
