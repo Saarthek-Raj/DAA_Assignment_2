@@ -21,7 +21,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;2. Algorithm 2 Implementation: Amritansh Tiwari 
 
-&nbsp;&nbsp;&nbsp;&nbsp;4. Report: Sarthak , Abdul Rahman Yakoob 
+&nbsp;&nbsp;&nbsp;&nbsp;3. Report: Sarthak , Abdul Rahman Yakoob 
 
 
 ## Run Locally
